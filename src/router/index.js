@@ -10,7 +10,6 @@ import Buttons from '@/views/components/Buttons'
 import Page404 from '@/views/errorPages/Page404'
 import Page500 from '@/views/errorPages/Page500'
 
-
 /* login */
 const Login = _import('login/index');
 Vue.use(Router);
@@ -91,7 +90,7 @@ export const asyncRouterMap = [
     children: [
      {path: '/home1/dashboard',name: 'Dashboard2',icon:'speedometer',component: _import('Dashboard2')},
      {path: '/home1/introduction',name: '介绍2',icon:'thumbsup',component: _import('Introduction')},
-    
+     {path: '/wz',name: 'WZ',icon:"social-html5",component: _import('wz')},
     ]
   },
 

@@ -39,11 +39,11 @@
   </div>
 </template>
 <script>
-import { VueTinymce , TinymceSetting } from 'vue-tinymce';
+// import { VueTinymce , TinymceSetting } from 'vue-tinymce';
 
  
 export default {
-  components: { VueTinymce,TinymceSetting },
+//   components: { VueTinymce,TinymceSetting },
   data() {
      return {
             show_content1_html:false,

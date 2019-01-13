@@ -10,7 +10,7 @@ const user = {
     uid: undefined,
     auth_type: '',
     token: Cookies.get('Admin-Token'),
-    name: '',
+    name: '', 
     avatar: '',
     introduction: '',
     roles: [],
