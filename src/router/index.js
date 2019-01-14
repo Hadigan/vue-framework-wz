@@ -82,15 +82,99 @@ export const asyncRouterMap = [
   },
 
    {
-    path: '/home1',
-    redirect: '/home1/introduction',
-    name: '首页2',
+    path: '/shenglv',
+    redirect: '/shenglv/design',
+    name: '胜率控制',
     component: Full2,
     hidden:false,
     children: [
-     {path: '/home1/dashboard',name: 'Dashboard2',icon:'speedometer',component: _import('Dashboard2')},
-     {path: '/home1/introduction',name: '介绍2',icon:'thumbsup',component: _import('Introduction')},
-     {path: '/wz',name: 'WZ',icon:"social-html5",component: _import('wz')},
+     {path: '/shenglv/design',name: '设计想法',icon:'speedometer',component: _import('shenglv/Design')},
+    ]
+  },
+
+  {
+    path: '/userdata',
+    redirect: '/userdata/moneyrank',
+    name: "用户信息",
+    component: Full2,
+    hidden: false,
+    children: [
+      {path: '/userdata/useraccount', name: '用户账户', icon: 'speedometer', component: _import('userdata/UserAccount')},
+      {path: '/userdata/moneyrank', name: '金币排行', icon: 'speedometer', component: _import('userdata/MoneyRank')},
+      {path: '/userdata/transationrecord', name: '转账记录', icon: 'speedometer', component: _import('userdata/TransationRecord')},
+    ]
+  },
+
+  {
+    path: '/systemsetting',
+    redirect: '/systemsetting/noticecontent',
+    name: "系统管理",
+    component: Full2,
+    hidden: false,
+    children: [
+      {path: '/systemsetting/noticecontent', name: '银商喇叭', icon: 'speedometer', component: _import('systemsetting/NoticeContent')},
+      {path: '/systemsetting/transfersetting', name: '转账设置', icon: 'speedometer', component: _import('systemsetting/TransferSetting')},
+      {path: '/systemsetting/registergiving', name: '注册赠送', icon: 'speedometer', component: _import('systemsetting/RegisterGiving')},
+      {path: '/systemsetting/loginsetting', name: '登录设置', icon: 'speedometer', component: _import('systemsetting/LoginSetting')},
+      // {path: '/systemsetting/moneyrank', name: '金币排行', icon: 'speedometer', component: _import('userdata/MoneyRank')},
+      // {path: '/systemsetting/transationrecord', name: '转账记录', icon: 'speedometer', component: _import('userdata/TransationRecord')},
+    ]
+  },
+
+  {
+    path: '/gamesetting',
+    redirect: '/gamesetting/bcbm',
+    name: "子游戏设置",
+    component: Full2,
+    hidden: false,
+    children: [
+      {path: '/gamesetting/bcbm', name: '奔驰宝马', icon: 'speedometer', component: _import('gamesetting/bcbm')},
+      {path: '/gamesetting/blackjack', name: '21点', icon: 'speedometer', component: _import('gamesetting/blackjack')},
+      {path: '/gamesetting/dntg', name: '大闹天宫', icon: 'speedometer', component: _import('gamesetting/dntg')},
+      {path: '/gamesetting/hhsw', name: '虎虎生威', icon: 'speedometer', component: _import('gamesetting/hhsw')},
+      {path: '/gamesetting/shz', name: '水浒传', icon: 'speedometer', component: _import('gamesetting/shz')},
+      {path: '/gamesetting/srnn', name: '四人牛牛', icon: 'speedometer', component: _import('gamesetting/srnn')},
+      {path: '/gamesetting/tbnn', name: '通比牛牛', icon: 'speedometer', component: _import('gamesetting/tbnn')},
+    ]
+  },
+
+  {
+    path: '/yinshangutils',
+    redirect: '/yinshangutils/shangxiafen',
+    name: "银商工具",
+    component: Full2,
+    hidden: false,
+    children: [
+      {path: '/yinshangutils/shangxiafen', name: '上分', icon: 'speedometer', component: _import('yinshangutils/ShangXiaFen')},
+      // {path: '/systemsetting/moneyrank', name: '金币排行', icon: 'speedometer', component: _import('userdata/MoneyRank')},
+      // {path: '/systemsetting/transationrecord', name: '转账记录', icon: 'speedometer', component: _import('userdata/TransationRecord')},
+    ]
+  },
+
+  {
+    path: '/datastatistics',
+    redirect: '/datastatistics/online',
+    name: "数据分析",
+    component: Full2,
+    hidden: false,
+    children: [
+      {path: '/datastatistics/online', name: '在线统计', icon: 'speedometer', component: _import('datastatistics/Online')},
+      {path: '/datastatistics/game', name: '子游戏统计', icon: 'speedometer', component: _import('datastatistics/Game')},
+      {path: '/datastatistics/money', name: '金币统计', icon: 'speedometer', component: _import('datastatistics/Money')},
+      {path: '/datastatistics/register', name: '注册统计', icon: 'speedometer', component: _import('datastatistics/Register')},
+      {path: '/datastatistics/shuishou', name: '税收统计', icon: 'speedometer', component: _import('datastatistics/ShuiShou')},
+    ]
+  },
+
+  {
+    path: '/log',
+    redirect: '/log/login',
+    name: "数据分析",
+    component: Full2,
+    hidden: false,
+    children: [
+      {path: '/log/login', name: '管理员登录日志', icon: 'speedometer', component: _import('log/Login')},
+      {path: '/log/operation', name: '管理员操作日志', icon: 'speedometer', component: _import('log/Operation')},
     ]
   },
 
