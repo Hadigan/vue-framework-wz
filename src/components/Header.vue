@@ -15,7 +15,7 @@
 
             <router-link tag="div" to='/' style="height:55px;" class="nav-link">
                 <p>
-                    <Icon type="compose" size='30' color="#2d8cf0"></Icon>
+                    <Icon type="ios-podium-outline" size='30' color="#2d8cf0"></Icon>
                 </p>
                 <p style="color:white"> 留言管理 </p>
             </router-link>
@@ -24,7 +24,7 @@
 
             <router-link tag="div" to='/shenglv' style="height:55px;" class="nav-link">
                 <p>
-                    <Icon type="stats-bars" size='30' color="#2d8cf0"></Icon>
+                    <Icon type="ios-podium-outline" size='30' color="#2d8cf0"></Icon>
                 </p>
                 <p style="color:white"> 胜率设置 </p>
             </router-link>
@@ -35,7 +35,7 @@
             <!--   -->
             <router-link tag="div" to='/gamesetting' style="height:55px;" class="nav-link">
                 <p>
-                    <Icon type="android-cloud" size='30' color="#2d8cf0"></Icon>
+                    <Icon type="ios-podium-outline" size='30' color="#2d8cf0"></Icon>
                 </p>
                 <p style="color:white"> 游戏设置 </p>
             </router-link>
@@ -46,7 +46,7 @@
 
             <router-link tag="div" to='/userdata' style="height:55px;" class="nav-link">
                 <p>
-                    <Icon type="trophy" size='30' color="#2d8cf0"></Icon>
+                    <Icon type="ios-podium-outline" size='30' color="#2d8cf0"></Icon>
                 </p>
                 <p style="color:white"> 用户数据 </p>
             </router-link>
@@ -56,7 +56,7 @@
         <li class="nav-item header-item">
             <router-link tag="div" to='/systemsetting' style="height:55px;" class="nav-link">
                 <p>
-                    <Icon type="trophy" size='30' color="#2d8cf0"></Icon>
+                    <Icon type="ios-podium-outline" size='30' color="#2d8cf0"></Icon>
                 </p>
                 <p style="color:white"> 系统管理 </p>
             </router-link>
@@ -65,7 +65,7 @@
         <li class="nav-item header-item">
             <router-link tag="div" to='/datastatistics' style="height:55px;" class="nav-link">
                 <p>
-                    <Icon type="trophy" size='30' color="#2d8cf0"></Icon>
+                    <Icon type="ios-podium-outline" size='30' color="#2d8cf0"></Icon>
                 </p>
                 <p style="color:white"> 数据分析 </p>
             </router-link>
@@ -74,7 +74,7 @@
         <li class="nav-item header-item">
             <router-link tag="div" to='/log' style="height:55px;" class="nav-link">
                 <p>
-                    <Icon type="trophy" size='30' color="#2d8cf0"></Icon>
+                    <Icon type="ios-podium-outline" size='30' color="#2d8cf0"></Icon>
                 </p>
                 <p style="color:white"> 日志信息 </p>
             </router-link>
@@ -83,7 +83,7 @@
         <li class="nav-item header-item">
             <router-link tag="div" to='/yinshangutils' style="height:55px;" class="nav-link">
                 <p>
-                    <Icon type="trophy" size='30' color="#2d8cf0"></Icon>
+                    <Icon type="ios-podium-outline" size='30' color="#2d8cf0"></Icon>
                 </p>
                 <p style="color:white"> 银商工具 </p>
             </router-link>

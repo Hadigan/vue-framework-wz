@@ -1,18 +1,23 @@
 import axios from 'axios';
 import store from '../store';
 import vue from 'vue';
+import user from '../store/modules/user'
 // import router from '../router';
 
 // 创建axios实例
 const service = axios.create({
   // baseURL: process.env.BASE_API, // api的base_url
   baseURL: 'http://127.0.0.1:8080', // api的base_url
-  timeout: 5000                  // 请求超时时间
+  timeout: 5000,                  // 请求超时时间
 });
 
 // request拦截器
 service.interceptors.request.use(config => {
   // Do something before request is sent
+  if (user.state.token != null) {
+    config.withCredentials = true;
+    config.headers.common['Authorization'] = user.state.token;
+  }
   return config;
 }, error => {
   // Do something with request error

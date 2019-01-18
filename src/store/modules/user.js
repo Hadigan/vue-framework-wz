@@ -1,5 +1,6 @@
 import { loginByEmail, logout, getInfo } from 'api/login';
 import Cookies from 'js-cookie';
+import Axios from 'axios';
 
 const user = {
   state: {

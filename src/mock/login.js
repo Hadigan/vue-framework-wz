@@ -33,8 +33,8 @@ export default {
   },
   getInfo: config => {
     const { token } = param2Obj(config.url);
-    if (userMap[token]) {
-      return userMap[token];
+    if (userMap['admin']) {
+      return userMap['admin'];
     } else {
       return Promise.reject('a');
     }

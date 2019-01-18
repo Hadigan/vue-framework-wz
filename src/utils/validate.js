@@ -46,5 +46,16 @@ export function oneOf (value, validList) {
     return false;
 }
 
+export function validatUserId(str) {
+  const reg = /^[0-9]{8}$/;
+  return reg.test(str);
+}
+
+
+export function validateIPAddress(str) {
+    const reg = /^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}:[0-9]{2,5}$/;
+    return reg.test(str);
+}
+
 
 

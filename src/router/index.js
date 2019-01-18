@@ -169,7 +169,7 @@ export const asyncRouterMap = [
   {
     path: '/log',
     redirect: '/log/login',
-    name: "数据分析",
+    name: "日志系统",
     component: Full2,
     hidden: false,
     children: [
