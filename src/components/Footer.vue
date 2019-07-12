@@ -1,6 +1,6 @@
 <template>
   <footer class="app-footer">
-    <a >WZ</a> &copy; 2017 creativeLabs.
+    <a >Hadigan</a> &copy; 2019 creativeLabs.
     <span class="float-right">Powered by <a href="http://coreui.io">WZ</a></span>
   </footer>
 </template>
